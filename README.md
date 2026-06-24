@@ -1,7 +1,7 @@
 # SkyStrings
 <div>
     <h3>
-        <a href="README.md">English</a>
+        <a>English</a>
         <span> • </span>
         <a href="README_zh.md">中文</a>
     </h3>
