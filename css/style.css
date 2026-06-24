@@ -1,0 +1,241 @@
+/* ==============================
+   Sky Text Lookup Design
+   ============================== */
+
+:root {
+    /* Color: Twilight Sky */
+    --color-bg-top: #1a1f3d;
+    --color-bg-bottom: #2b2f5c;
+    --color-panel: #262b52;
+    --color-panel-border: #3a4078;
+    --color-accent: #f0c168;
+    --color-accent-dim: #c9a05a;
+    --color-periwinkle: #8fa3e3;
+    --color-text: #eceaf4;
+    --color-text-muted: #9a9fc2;
+    --color-text-faint: #6e739a;
+
+    /* Type */
+    --font-display: "Quicksand", "Comfortaa", "Segoe UI", sans-serif;
+    --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+    /* Layout */
+    --radius-md: 10px;
+    --radius-sm: 6px;
+    --shadow-glow: 0 0 0 3px rgba(240, 193, 104, 0.25);
+    --transition: 150ms ease;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(ellipse at top, var(--color-bg-bottom), var(--color-bg-top) 70%);
+    font-family: var(--font-body);
+    color: var(--color-text);
+    line-height: 1.5;
+    padding: 32px 20px 64px;
+}
+
+/* ==============================
+   Layout shell
+   ============================== */
+
+#app {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    font-family: var(--font-display);
+    letter-spacing: 0.02em;
+}
+
+/* ==============================
+   Settings bar
+   ============================== */
+
+#settingsBtn {
+    margin-left: auto;
+    background: transparent;
+    border: 1px solid var(--color-panel-border);
+    color: var(--color-text-muted);
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    padding: 8px 16px;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: border-color var(--transition), color var(--transition);
+}
+
+#settingsBtn:hover {
+    border-color: var(--color-accent-dim);
+    color: var(--color-accent);
+}
+
+#settingsBtn:focus-visible {
+    outline: none;
+    box-shadow: var(--shadow-glow);
+}
+
+#settingsPanel {
+    background: var(--color-panel);
+    border: 1px solid var(--color-panel-border);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+#settingsPanel.hidden {
+    display: none;
+}
+
+/* ==============================
+   Form controls
+   ============================== */
+
+select,
+input[type="text"] {
+    background: var(--color-panel);
+    border: 1px solid var(--color-panel-border);
+    border-radius: var(--radius-sm);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    padding: 9px 12px;
+    transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+select {
+    min-width: 160px;
+    cursor: pointer;
+}
+
+select:hover,
+input[type="text"]:hover {
+    border-color: var(--color-periwinkle);
+}
+
+select:focus-visible,
+input[type="text"]:focus-visible {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: var(--shadow-glow);
+}
+
+#searchInput {
+    width: 100%;
+    font-size: 1.05rem;
+    padding: 14px 16px;
+    border-radius: var(--radius-md);
+}
+
+#searchInput::placeholder {
+    color: var(--color-text-faint);
+}
+
+#targetLangContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+/* ==============================
+   Results
+   ============================== */
+
+#results {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.result {
+    background: var(--color-panel);
+    border: 1px solid var(--color-panel-border);
+    border-left: 3px solid var(--color-accent-dim);
+    border-radius: var(--radius-md);
+    padding: 16px 18px;
+    transition: border-left-color var(--transition);
+}
+
+.result:hover {
+    border-left-color: var(--color-accent);
+}
+
+.result > div:first-child {
+    font-size: 0.75rem;
+    color: var(--color-text-faint);
+    font-family: var(--font-display);
+    letter-spacing: 0.03em;
+    margin-bottom: 6px;
+}
+
+.result > div:nth-child(2) {
+    font-size: 1.05rem;
+    color: var(--color-text);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.result > div:nth-child(n+3) {
+    font-size: 0.92rem;
+    color: var(--color-text-muted);
+    padding-left: 14px;
+    border-left: 1px solid var(--color-panel-border);
+    margin-top: 6px;
+}
+
+/* ==============================
+   Reduced motion
+   ============================== */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+    }
+}
+
+/* ==============================
+   Mobile
+   ============================== */
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px 14px 48px;
+    }
+
+    .row {
+        gap: 10px;
+    }
+
+    select {
+        min-width: 0;
+        flex: 1 1 140px;
+    }
+
+    #settingsBtn {
+        margin-left: 0;
+    }
+}
