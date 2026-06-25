@@ -86,8 +86,8 @@ const uiText = {
         sourceLabel: "ソース：",
         targetLabel: "ターゲット：",
         searchPlaceholder: "キーワードを入力...",
-        resultId: "ID：",
-        resultSource: "ソース："
+        resultId: "ID: ",
+        resultSource: "ソース: "
     },
 
     "ko": {
