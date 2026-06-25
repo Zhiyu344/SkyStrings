@@ -501,6 +501,35 @@ function renderTargetSelectors() {
 }
 
 // ==============================
+// Lang row layout
+// ==============================
+ 
+// Measure .lang-row actual width to see if it exceeds the container, and switch to vertical layout if so,
+// to avoid "partial wrapping" (e.g. target language 2 wraps to the next line) which creates inconsistent effects
+function updateLangRowLayout() {
+    const langRow = document.querySelector(".lang-row");
+    if (!langRow) return;
+ 
+    // Remove stacked class to restore horizontal layout for width measurement
+    langRow.classList.remove("stacked");
+ 
+    const overflowing = langRow.scrollWidth > langRow.clientWidth + 1; // +1 to account for potential rounding errors
+ 
+    if (overflowing) {
+        langRow.classList.add("stacked");
+    }
+}
+ 
+// Debounce, to avoid frequent triggering when resizing the window
+function debounce(fn, delay) {
+    let timer = null;
+    return (...args) => {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn(...args), delay);
+    };
+}
+
+// ==============================
 // Render results
 // ==============================
 
@@ -589,11 +618,33 @@ function bindEvents() {
 
     searchInput.addEventListener("input", handleSearch);
 
+    // window size changes, re-evaluate whether source/target should switch to vertical layout
+    window.addEventListener("resize", debounce(updateLangRowLayout, 150));
+
     sourceSelect.addEventListener("change", handleSearch);
 
-    if (settingsBtn && settingsPanel) {
-        settingsBtn.addEventListener("click", () => {
-            settingsPanel.classList.toggle("hidden");
+    if (settingsBtn && settingsOverlay) {
+        const openSettings = () => settingsOverlay.classList.remove("hidden");
+        const closeSettings = () => settingsOverlay.classList.add("hidden");
+ 
+        settingsBtn.addEventListener("click", openSettings);
+ 
+        if (settingsCloseBtn) {
+            settingsCloseBtn.addEventListener("click", closeSettings);
+        }
+
+        // 
+        settingsOverlay.addEventListener("click", (e) => {
+            if (e.target === settingsOverlay) {
+                closeSettings();
+            }
+        });
+
+        // Type Esc close Settings
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape" && !settingsOverlay.classList.contains("hidden")) {
+                closeSettings();
+            }
         });
     }
 
@@ -604,6 +655,7 @@ function bindEvents() {
             comparisonMode = parseInt(modeSelect.value, 10);
             localStorage.setItem("comparisonMode", String(comparisonMode));
             renderTargetSelectors(); // Re-render target language selectors end on the new comparison mode
+            saveLanguageSelections();
             handleSearch();          // Re-render search results with the new target languages
         });
     }
