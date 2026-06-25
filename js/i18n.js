@@ -1,6 +1,7 @@
 const uiText = {
     "en": {
         settingsBtn: "⚙ Settings",
+        settingsTitle: "Settings",
         uiLangLabel: "UI Language: ",
         modeLabel: "Comparison Mode: ",
         select1: "Bilingual",
@@ -14,6 +15,7 @@ const uiText = {
 
     "de": {
         settingsBtn: "⚙ Einstellungen",
+        settingsTitle: "Einstellungen",
         uiLangLabel: "Benutzeroberflächensprache: ",
         modeLabel: "Vergleichsmodus: ",
         select1: "Zweisprachig",
@@ -27,6 +29,7 @@ const uiText = {
 
     "es": {
         settingsBtn: "⚙ Configuración",
+        settingsTitle: "Configuración",
         uiLangLabel: "Idioma de la interfaz: ",
         modeLabel: "Modo de comparación: ",
         select1: "Bilingüe",
@@ -40,6 +43,7 @@ const uiText = {
 
     "fr": {
         settingsBtn: "⚙ Paramètres",
+        settingsTitle: "Paramètres",
         uiLangLabel: "Langue de l'interface : ",
         modeLabel: "Mode de comparaison : ",
         select1: "Bilingue",
@@ -53,6 +57,7 @@ const uiText = {
 
     "id": {
         settingsBtn: "⚙ Pengaturan",
+        settingsTitle: "Pengaturan",
         uiLangLabel: "Bahasa UI: ",
         modeLabel: "Mode Perbandingan: ",
         select1: "Dwibahasa",
@@ -66,6 +71,7 @@ const uiText = {
 
     "it": {
         settingsBtn: "⚙ Impostazioni",
+        settingsTitle: "Impostazioni",
         uiLangLabel: "Lingua dell'interfaccia: ",
         modeLabel: "Modalità di confronto: ",
         select1: "Bilingue",
@@ -79,6 +85,7 @@ const uiText = {
 
     "ja": {
         settingsBtn: "⚙ 設定",
+        settingsTitle: "設定",
         uiLangLabel: "UI 言語：",
         modeLabel: "比較モード：",
         select1: "二言語",
@@ -92,6 +99,7 @@ const uiText = {
 
     "ko": {
         settingsBtn: "⚙ 설정",
+        settingsTitle: "설정",
         uiLangLabel: "UI 언어: ",
         modeLabel: "비교 모드: ",
         select1: "이중 언어",
@@ -105,6 +113,7 @@ const uiText = {
 
     "pt": {
         settingsBtn: "⚙ Configurações",
+        settingsTitle: "Configurações",
         uiLangLabel: "Idioma da interface: ",
         modeLabel: "Modo de comparação: ",
         select1: "Bilíngue",
@@ -118,6 +127,7 @@ const uiText = {
 
     "ru": {
         settingsBtn: "⚙ Настройки",
+        settingsTitle: "Настройки",
         uiLangLabel: "Язык интерфейса: ",
         modeLabel: "Режим сравнения: ",
         select1: "Двуязычный",
@@ -131,6 +141,7 @@ const uiText = {
 
     "th": {
         settingsBtn: "⚙ ตั้งค่า",
+        settingsTitle: "ตั้งค่า",
         uiLangLabel: "ภาษาอินเตอร์เฟซ: ",
         modeLabel: "โหมดการเปรียบเทียบ: ",
         select1: "สองภาษา",
@@ -144,6 +155,7 @@ const uiText = {
 
     "vi": {
         settingsBtn: "⚙ Cài đặt",
+        settingsTitle: "Cài đặt",
         uiLangLabel: "Ngôn ngữ giao diện: ",
         modeLabel: "Chế độ so sánh: ",
         select1: "Hai ngôn ngữ",
@@ -157,6 +169,7 @@ const uiText = {
 
     "zh": {
         settingsBtn: "⚙ 设置",
+        settingsTitle: "设置",
         uiLangLabel: "界面语言：",
         modeLabel: "比较模式：",
         select1: "双语",
@@ -175,11 +188,13 @@ function applyUiText() {
     const uiLangLabelText = document.getElementById("uiLangLabel");
     const sourceLabelText = document.getElementById("sourceLabel");
     const settingsBtnText = document.getElementById("settingsBtn");
+    const settingsTitleText = document.getElementById("settingsTitle");
     const modeLabelText = document.getElementById("modeLabel");
 
     if (uiLangLabelText) uiLangLabelText.textContent = t.uiLangLabel;
     if (sourceLabelText) sourceLabelText.textContent = t.sourceLabel;
     if (settingsBtnText) settingsBtnText.textContent = t.settingsBtn;
+    if (settingsTitleText) settingsTitleText.textContent = t.settingsTitle;
     if (modeLabelText) modeLabelText.textContent = t.modeLabel;
 
     const modeSelect = document.getElementById("modeSelect");
