@@ -13,50 +13,17 @@
             <button id="settingsBtn">⚙ Settings</button>
         </div>
 
-        <!-- Settings Panel -->
-        <div id="settingsPanel" class="settings-panel hidden">
-            <div class="row">
-                <label>
-                    <span id="uiLangLabel">UI Language: </span>
-                    <select id="uiLangSelect">
-                        <option value="de">Deutsch</option>
-                        <option value="en">English</option>
-                        <option value="es">Español</option>
-                        <option value="fr">Français</option>
-                        <option value="id">Bahasa Indonesia</option>
-                        <option value="it">Italiano</option>
-                        <option value="ja">日本語</option>
-                        <option value="ko">한국어</option>
-                        <option value="pt">Português</option>
-                        <option value="ru">Русский</option>
-                        <option value="th">ภาษาไทย</option>
-                        <option value="vi">Tiếng Việt</option>
-                        <option value="zh">中文</option>
-                    </select>
-                </label>
-            </div>
-
-            <div class="row">
-                <label>
-                    <span id="modeLabel">Comparison Mode: </span>
-                    <select id="modeSelect">
-                        <option value="2" id="select1">Bilingual</option>
-                        <option value="3" id="select2">Trilingual</option>
-                    </select>
-                </label>
-            </div>
-        </div>
         <div id="app">
 
-        <!-- Language selectors -->
-            <div class="row">
+            <!-- Language selectors -->
+            <div class="row lang-row">
                 <label>
-                    <span id="sourceLabel">Source: </span>
+                    <span id="sourceLabel">Source:</span>
                     <select id="sourceLang"></select>
                 </label>
+ 
+                <div id="targetLangContainer" class="row"></div>
             </div>
-
-            <div id="targetLangContainer" class="row"></div>
 
             <!-- Search input -->
             <div class="row">
@@ -71,14 +38,59 @@
             <div id="results"></div>
 
         </div>
+
+        <!-- Settings Panel -->
+
+        <div id="settingsOverlay" class="overlay hidden">
+            <div id="settingsPanel" class="modal" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+                <div class="modal-header">
+                    <span id="settingsTitle">Settings</span>
+                    <button id="settingsCloseBtn" class="modal-close" aria-label="Close">✕</button>
+                </div>
+
+                <div class="row">
+                    <label>
+                        <span id="uiLangLabel">UI Language: </span>
+                        <select id="uiLangSelect">
+                            <option value="de">Deutsch</option>
+                            <option value="en">English</option>
+                            <option value="es">Español</option>
+                            <option value="fr">Français</option>
+                            <option value="id">Bahasa Indonesia</option>
+                            <option value="it">Italiano</option>
+                            <option value="ja">日本語</option>
+                            <option value="ko">한국어</option>
+                            <option value="pt">Português</option>
+                            <option value="ru">Русский</option>
+                            <option value="th">ภาษาไทย</option>
+                            <option value="vi">Tiếng Việt</option>
+                            <option value="zh">中文</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label>
+                        <span id="modeLabel">Comparison Mode: </span>
+                        <select id="modeSelect">
+                            <option value="2" id="select1">Bilingual</option>
+                            <option value="3" id="select2">Trilingual</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer id="appFooter">
+            <span>SkyStrings v1.2.0</span>
+            ·
+            <a href="https://github.com/Zhiyu344/SkyStrings" target="_blank" rel="noopener">GitHub</a>
+            ·
+            <span>MIT License</span>
+        </footer>
+                
         <script src="js/app.js"></script>
         <script src="js/i18n.js"></script>
     </body>
-    <footer id="appFooter">
-        <span>SkyStrings v1.1.0</span>
-        ·
-        <a href="https://github.com/Zhiyu344/SkyStrings" target="_blank" rel="noopener">GitHub</a>
-        ·
-        <span>MIT License</span>
-    </footer>
 </html>
