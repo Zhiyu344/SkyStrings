@@ -14,7 +14,7 @@ const uiText = {
 
     "de": {
         settingsBtn: "⚙ Einstellungen",
-        uiLangLabel: "Benutzeroberfläche Sprache: ",
+        uiLangLabel: "Benutzeroberflächensprache: ",
         modeLabel: "Vergleichsmodus: ",
         select1: "Zweisprachig",
         select2: "Dreisprachig",
@@ -55,8 +55,8 @@ const uiText = {
         settingsBtn: "⚙ Pengaturan",
         uiLangLabel: "Bahasa UI: ",
         modeLabel: "Mode Perbandingan: ",
-        select1: "Bilingual",
-        select2: "Trilingual",
+        select1: "Dwibahasa",
+        select2: "Tribahasa",
         sourceLabel: "Sumber: ",
         targetLabel: "Tujuan: ",
         searchPlaceholder: "Masukkan kata kunci...",
@@ -67,7 +67,7 @@ const uiText = {
     "it": {
         settingsBtn: "⚙ Impostazioni",
         uiLangLabel: "Lingua dell'interfaccia: ",
-        modeLabel: "Mode di confronto: ",
+        modeLabel: "Modalità di confronto: ",
         select1: "Bilingue",
         select2: "Trilingue",
         sourceLabel: "Fonte: ",
@@ -97,7 +97,7 @@ const uiText = {
         select1: "이중 언어",
         select2: "삼중 언어",
         sourceLabel: "출처: ",
-        targetLabel: "목표: ",
+        targetLabel: "대상: ",
         searchPlaceholder: "키워드를 입력하세요...",
         resultId: "ID: ",
         resultSource: "출처: "
@@ -107,8 +107,8 @@ const uiText = {
         settingsBtn: "⚙ Configurações",
         uiLangLabel: "Idioma da interface: ",
         modeLabel: "Modo de comparação: ",
-        select1: "Bilingue",
-        select2: "Trilingue",
+        select1: "Bilíngue",
+        select2: "Trilíngue",
         sourceLabel: "Fonte: ",
         targetLabel: "Destino: ",
         searchPlaceholder: "Digite a palavra-chave...",
@@ -164,8 +164,8 @@ const uiText = {
         sourceLabel: "源语言：",
         targetLabel: "目标语言：",
         searchPlaceholder: "请输入关键词...",
-        resultId: "编号：",
-        resultSource: "原文："
+        resultId: "ID: ",
+        resultSource: "原文: "
     }
 };
 

@@ -82,10 +82,10 @@ const langLabel = {
         "ko": "Bahasa Korea",
         "pt": "Bahasa Portugis",
         "ru": "Bahasa Rusia",
-        "th": "Bahasa Thailand",
+        "th": "Bahasa Thai",
         "vi": "Bahasa Vietnam",
-        "zh-hans": "Bahasa Tiongkok Sederhana",
-        "zh-hant": "Bahasa Tiongkok Tradisional"
+        "zh-hans": "Bahasa Tionghoa Sederhana",
+        "zh-hant": "Bahasa Tionghoa Tradisional"
     },
 
     "it": {
@@ -116,10 +116,10 @@ const langLabel = {
         "ko": "韓国語",
         "pt": "ポルトガル語",
         "ru": "ロシア語",
-        "th": "タイ",
+        "th": "タイ語",
         "vi": "ベトナム語",
-        "zh-hans": "簡体字中国語",
-        "zh-hant": "繁体字中国語"
+        "zh-hans": "簡体中国語",
+        "zh-hant": "繁体中国語"
     },
 
     "ko": {
