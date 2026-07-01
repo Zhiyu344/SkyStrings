@@ -132,8 +132,8 @@
 "account_panel_linked_twitch_state" = "已綁定 Twitch 帳號：\n<b>{{1}}</b>";
 "account_panel_linking_state" = "更新連結…";
 "account_panel_nintendo_not_available" = "此設備尚不支持Nintendo帳號登入";
-"account_panel_outfit_body" = "在指定地點舉辦的 Sky Mirror 實體活動中，讓你的光之子現身。";
-"account_panel_outfit_title" = "在 Sky Mirror 活動中掃描";
+"account_panel_outfit_body" = "在指定地點舉辦的實體活動中，讓你的光之子現身。";
+"account_panel_outfit_title" = "Sky Mirror / Sky AR 活動";
 "account_panel_recovery_code_message_01" = "你的《光·遇》ID：\n<small><b>{{1}}</b></small>";
 "account_panel_recovery_code_message_02" = "手動帳戶恢復將於近期上線！";
 "account_panel_sign_in_error" = "登錄錯誤：\n<b>{{1}}</b>";

@@ -132,8 +132,8 @@
 "account_panel_linked_twitch_state" = "Vinculado com a conta da Twitch:\n<b>{{1}}</b>";
 "account_panel_linking_state" = "Vinculando...";
 "account_panel_nintendo_not_available" = "O acesso pela conta Nintendo não está disponível neste dispositivo";
-"account_panel_outfit_body" = "Dê vida à sua criança de Sky em um evento presencial em Sky Mirror. Disponível em locais selecionados.";
-"account_panel_outfit_title" = "Escaneie em um evento Sky Mirror";
+"account_panel_outfit_body" = "Dê vida ao seu filho de Sky em um evento presencial. Disponível em locais selecionados.";
+"account_panel_outfit_title" = "Sky Mirror / Evento Sky AR";
 "account_panel_recovery_code_message_01" = "Sua ID de Sky é:\n<small><b>{{1}}</b></small>";
 "account_panel_recovery_code_message_02" = "O suporte para auto-recuperação chega em breve!";
 "account_panel_sign_in_error" = "Erro ao se conectar:\n <b>({1})</b>";

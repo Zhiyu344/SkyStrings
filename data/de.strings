@@ -132,8 +132,8 @@
 "account_panel_linked_twitch_state" = "Verknüpft mit einem Twitch-Konto:\n<b>{{1}}</b>";
 "account_panel_linking_state" = "Wird verknüpft ...";
 "account_panel_nintendo_not_available" = "Anmeldung mit Nintendo-Account auf diesem Gerät noch nicht verfügbar";
-"account_panel_outfit_body" = "Erwecke dein Himmelskind bei einem Sky-Mirror-Event vor Ort zum Leben. Verfügbar an ausgewählten Orten.";
-"account_panel_outfit_title" = "Bei einem Sky-Mirror-Event scannen";
+"account_panel_outfit_body" = "Erwecke dein Himmelskind beim Live-Event zum Leben. Nur an ausgewählten Standorten verfügbar.";
+"account_panel_outfit_title" = "Sky Mirror / Sky AR-Event";
 "account_panel_recovery_code_message_01" = "Deine Himmelsreich-ID lautet:\n<small><b>{{1}}</b></small>";
 "account_panel_recovery_code_message_02" = "Support für eigene Wiederherstellung in Kürze!";
 "account_panel_sign_in_error" = "Fehler beim Anmelden:\n <b>{{1}}</b>";

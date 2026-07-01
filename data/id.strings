@@ -132,8 +132,8 @@
 "account_panel_linked_twitch_state" = "Ditautkan dengan Akun Twitch:\n<b>{{1}}</b>";
 "account_panel_linking_state" = "Menautkan ...";
 "account_panel_nintendo_not_available" = "Masuk dengan Akun Nintendo belum tersedia di perangkat ini";
-"account_panel_outfit_body" = "Bawa Anak Sky kamu ke acara Cermin Sky secara langsung. Tersedia di lokasi-lokasi tertentu.";
-"account_panel_outfit_title" = "Scan di acara Cermin Sky";
+"account_panel_outfit_body" = "Wujudkan Anak Sky-mu di acara tatap muka. Tersedia di lokasi tertentu.";
+"account_panel_outfit_title" = "Sky Mirror / Acara Sky AR";
 "account_panel_recovery_code_message_01" = "ID Sky kamu:\n<small><b>{{1}}</b></small>";
 "account_panel_recovery_code_message_02" = "Dukungan pemulihan mandiri segera hadir!";
 "account_panel_sign_in_error" = "Kesalahan saat masuk:\n<b>{{1}}</b>";

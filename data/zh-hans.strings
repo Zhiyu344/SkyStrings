@@ -132,8 +132,8 @@
 "account_panel_linked_twitch_state" = "与 Twitch 账号绑定：\n<b>{{1}}</b>";
 "account_panel_linking_state" = "正在绑定…";
 "account_panel_nintendo_not_available" = "此设备尚不支持Nintendo账号登录";
-"account_panel_outfit_body" = "在指定地点举办的 Sky 遇镜 活动中，让你的光之子现身";
-"account_panel_outfit_title" = "在 Sky 遇镜 活动中扫描";
+"account_panel_outfit_body" = "在指定地点举办的线下活动中，让你的光之子现身。";
+"account_panel_outfit_title" = "Sky 遇镜 / Sky AR 活动";
 "account_panel_recovery_code_message_01" = "你的《Sky 光·遇》账号：\n<small><b>{{1}}</b></small>";
 "account_panel_recovery_code_message_02" = "自助账号恢复将于近期上线！";
 "account_panel_sign_in_error" = "登录错误：\n<b>{{1}}</b>";
@@ -1970,6 +1970,7 @@
 "buff_effect_goo_drain_mult" = "黑暗抗性";
 "buff_effect_gravity_mult" = "漂浮魔法";
 "buff_effect_ground_trail_rainbow" = "彩虹足迹小径";
+"buff_effect_ground_trail_star" = "星星步尘";
 "buff_effect_hairtint" = "染发剂";
 "buff_effect_hairtint_rainbow" = "彩虹染发剂";
 "buff_effect_height_mult" = "身高变化";
@@ -3195,6 +3196,7 @@
 "consumable_description_gravity" = "使您和附近的旅人在之后{{1}}分钟内降低下落速度。";
 "consumable_description_ground_trail_rainbow" = "在接下来的{{1}}分钟内为你提供彩虹滑行尾迹。";
 "consumable_description_ground_trail_rainbow_local" = "在接下来的{{1}}分钟内为你提供彩虹滑行尾迹。";
+"consumable_description_ground_trail_star" = "在接下来的{{1}}分钟内拥有星星步尘";
 "consumable_description_grow" = "在{{1}}分钟内让您变为成年人。";
 "consumable_description_hairtint" = "在接下来的{{1}}分钟里，让你的头发变得绚丽多彩。";
 "consumable_description_hairtint_rainbow" = "在接下来的{{1}}分钟里，让你的头发虹彩缤纷。";
@@ -3335,6 +3337,7 @@
 "consumable_name_glow_tgc" = "TGC光辉";
 "consumable_name_gravity" = "漂浮";
 "consumable_name_ground_trail_rainbow" = "彩虹足迹";
+"consumable_name_ground_trail_star" = "星星步尘";
 "consumable_name_grow" = "体型变高";
 "consumable_name_hairtint" = "染色魔发";
 "consumable_name_hairtint_rainbow" = "彩虹魔发";

@@ -138,8 +138,8 @@
 "account_panel_linked_twitch_state" = "Linked with Twitch Account:\n<b>{{1}}</b>";
 "account_panel_linking_state" = "Linking ...";
 "account_panel_nintendo_not_available" = "Sign in with Nintendo Account not yet available on this device";
-"account_panel_outfit_body" = "Bring your Sky Kid to life at a Sky Mirror in-person event. Available in select locations.";
-"account_panel_outfit_title" = "Scan at a Sky Mirror Event";
+"account_panel_outfit_body" = "Bring your Sky Kid to life at an in-person event. Available in select locations.";
+"account_panel_outfit_title" = "Sky Mirror / Sky AR Event";
 "account_panel_recovery_code_message_01" = "Your Sky ID is:\n<small><b>{{1}}</b></small>";
 "account_panel_recovery_code_message_02" = "Self recovery support coming soon!";
 "account_panel_sign_in_error" = "Error signing in:\n<b>{{1}}</b>";
@@ -2257,8 +2257,8 @@
 "catchphrase_tgc_zhengyil" = "Breathe in… breathe out.";
 "cdnresources_downloading" = "Downloading latest content...";
 "cdnresources_downloading_progress" = "Downloading latest content ({{1}}/{{2}})...";
-"cdnresources_space_confirm_body" = "To play Sky, a download of {{1}} is required. Please make sure there is enough free space on your device.";
-"cdnresources_space_confirm_title" = "Start Download?";
+"cdnresources_space_confirm_body" = "To play Sky, a download of {{1}} MB is required with {{2}} MB free. Please make sure there is enough free space on your device.";
+"cdnresources_space_confirm_title" = "Insufficient Space";
 "challenge_add_ball_confirm_body" = "At least one ball is needed for a target challenge.";
 "challenge_add_ball_confirm_title" = "Add a Ball to Your Space?";
 "challenge_allow_flight_toggle" = "Allow Flight";

@@ -132,8 +132,8 @@
 "account_panel_linked_twitch_state" = "Twitch アカウントと連携しています：\n<b>{{1}}</b>";
 "account_panel_linking_state" = "連携中...";
 "account_panel_nintendo_not_available" = "この端末はニンテンドーアカウントでのログインに対応していません";
-"account_panel_outfit_body" = "あなたの星の子どもを、各地で開催されるオフラインイベントSkyミラーに連れていきましょう";
-"account_panel_outfit_title" = "Skyミラーイベントでスキャン";
+"account_panel_outfit_body" = "対面イベントで、あなたの星の子どもを現実に呼び出そう。一部の会場でのみご利用可能です。";
+"account_panel_outfit_title" = "Sky Mirror / Sky ARイベント";
 "account_panel_recovery_code_message_01" = "あなたのSky IDは：\n<small><b>{{1}}</b></small>です";
 "account_panel_recovery_code_message_02" = "近日、オート復元サポートが実装されます";
 "account_panel_sign_in_error" = "連携エラー：\n<b>{{1}}</b>";

@@ -132,8 +132,8 @@
 "account_panel_linked_twitch_state" = "Liên kết với tài khoản Twitch:\n<b>{{1}}</b>";
 "account_panel_linking_state" = "Đang liên kết ...";
 "account_panel_nintendo_not_available" = "Đăng nhập bằng Tài khoản Nintendo chưa khả dụng trên thiết bị này";
-"account_panel_outfit_body" = "Hồi sinh Sky Kid tại sự kiện trực tiếp Gương Sky. Có sẵn tại một số địa điểm được chọn.";
-"account_panel_outfit_title" = "Quét tại SK Gương Sky";
+"account_panel_outfit_body" = "Đưa nhân vật Sky của bạn sống động tại sự kiện trực tiếp. Có mặt tại các địa điểm được chọn.";
+"account_panel_outfit_title" = "Sky Mirror / Sự kiện Sky AR";
 "account_panel_recovery_code_message_01" = "Sky ID của bạn là:\n<small><b>{{1}}</b></small>";
 "account_panel_recovery_code_message_02" = "Hỗ trợ tự khôi phục sắp ra mắt!";
 "account_panel_sign_in_error" = "Lỗi đăng nhập:\n<b>{{1}}</b>";

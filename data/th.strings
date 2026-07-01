@@ -133,8 +133,8 @@
 "account_panel_linked_twitch_state" = "เชื่อมโยงกับบัญชี Twitch:\n<b>{{1}}</b>";
 "account_panel_linking_state" = "กำลังเชื่อมโยง...";
 "account_panel_nintendo_not_available" = "อุปกรณ์นี้ยังไม่รองรับการเข้าสู่ระบบด้วยบัญชี Nintendo";
-"account_panel_outfit_body" = "รังสรรค์สกายคิดส์ของคุณให้เป็นจริงในงานอีเวนต์ Sky Mirror พร้อมให้บริการแล้วในบางพื้นที่";
-"account_panel_outfit_title" = "สแกนที่อีเวนต์ Sky Mirror";
+"account_panel_outfit_body" = "นำสกายคิดส์ของคุณมาสู่ชีวิตจริงในงานอีเวนต์แบบพบหน้า มีให้บริการในสถานที่คัดสรร";
+"account_panel_outfit_title" = "Sky Mirror / งาน Sky AR";
 "account_panel_recovery_code_message_01" = "Sky ID ของคุณคือ:\n<small><b>{{1}}</b></small>";
 "account_panel_recovery_code_message_02" = "รองรับการกู้คืนด้วยตนเองในเร็วๆ นี้!";
 "account_panel_sign_in_error" = "เกิดข้อผิดพลาดขณะเข้าสู่ระบบ:\n<b>{{1}}</b>";

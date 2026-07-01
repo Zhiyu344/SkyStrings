@@ -132,8 +132,8 @@
 "account_panel_linked_twitch_state" = "П��ивязано к учетной записи Twitch:\n<b>{{1}}</b>";
 "account_panel_linking_state" = "Привязка...";
 "account_panel_nintendo_not_available" = "Вход с учетной записью Nintendo еще не доступен на этом устройстве";
-"account_panel_outfit_body" = "Оживите своё дитя Неба в рамках живого события Sky Mirror. Доступно в определённых локациях.";
-"account_panel_outfit_title" = "Отсканируйте в рамках события Sky Mirror";
+"account_panel_outfit_body" = "Оживи своего ребёнка Неба на очном мероприятии. Доступно в избранных местах.";
+"account_panel_outfit_title" = "Sky Mirror / Sky AR-мероприятие";
 "account_panel_recovery_code_message_01" = "Ваш Sky ID:\n<small><b>{{1}}</b></small>";
 "account_panel_recovery_code_message_02" = "Скоро можно будет восстанавливать учетную запись самостоятельно!";
 "account_panel_sign_in_error" = "Ошибка входа в:\n<b>{{1}}</b>";

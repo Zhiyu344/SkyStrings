@@ -132,8 +132,8 @@
 "account_panel_linked_twitch_state" = "Twitch 계정과 연동됨:\n<b>{{1}}</b>";
 "account_panel_linking_state" = "연동 중…";
 "account_panel_nintendo_not_available" = "이 기기에서는 아직 닌텐도 어카운트로 로그인 할 수 없습니다";
-"account_panel_outfit_body" = "Sky Mirror 오프라인 행사장에서 당신의 Sky 아이를 현실로 불러옵니다. 일부 지역에서만 진행됩니다.";
-"account_panel_outfit_title" = "Sky Mirror 행사장에서 스캔";
+"account_panel_outfit_body" = "오프라인 이벤트에서 나만의 Sky 아이를 현실로 불러보세요. 일부 지역에서만 이용 가능합니다.";
+"account_panel_outfit_title" = "Sky Mirror / Sky AR 이벤트";
 "account_panel_recovery_code_message_01" = "Sky ID: \n<b>{{1}}</b>";
 "account_panel_recovery_code_message_02" = "자가 복구 지원이 곧 제공됩니다!";
 "account_panel_sign_in_error" = "로그인 오류:\n<b>{{1}}</b>";
